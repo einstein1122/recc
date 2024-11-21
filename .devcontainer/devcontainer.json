@@ -1,0 +1,13 @@
+{
+    "build": {"dockerfile": "../Dockerfile"},
+    "remoteUser": "builder",
+
+    "customizations": {
+      "vscode": {
+        "extensions": ["ms-vscode.cpptools-extension-pack", "xaver.clang-format"],
+        "settings": {
+            "cmake.buildDirectory": "/tmp/build"
+        }
+      }
+    }
+}
